@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import { Facebook, Instagram, Twitter, MessageSquare, MessageCircleHeart } from "lucide-react"
+import { Facebook, Instagram, Twitter,  MessageCircleHeart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
