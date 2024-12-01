@@ -36,7 +36,7 @@ export default function ContactPage() {
               className="min-w-[200px] relative overflow-hidden group" 
               asChild
             >
-              <Link href="https://facebook.com" target="_blank">
+              <Link href="https://www.facebook.com/profile.php?id=100090615556188&mibextid=ZbWKwL" target="_blank">
                 <span className="absolute inset-0 bg-[#1877F2] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></span>
                 <span className="relative flex items-center justify-center gap-2 group-hover:text-white">
                   <Facebook />
@@ -78,7 +78,7 @@ export default function ContactPage() {
               className="min-w-[200px] relative overflow-hidden group" 
               asChild
             >
-              <Link href="https://wa.me/1234567890" target="_blank">
+              <Link href="https://wa.me/+2348151312848" target="_blank">
                 <span className="absolute inset-0 bg-[#25D366] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></span>
                 <span className="relative flex items-center justify-center gap-2 group-hover:text-white">
                   <MessageCircleHeart/>
@@ -93,6 +93,7 @@ export default function ContactPage() {
       <footer className="fixed bottom-0 left-0 right-0 backdrop-blur-md bg-white/20 py-6 px-4 md:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center text-white">
           <p>&copy; 2024 Ooh Interiors. All rights reserved.</p>
+          <p>ogba Ikeja, Ikeja Lagos</p>
         </div>
       </footer>
     </div>

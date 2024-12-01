@@ -125,7 +125,7 @@ export default function ProductPage() {
 
       <footer className="bg-muted py-6 px-4 md:px-6 lg:px-8 mt-12">
         <div className="max-w-7xl mx-auto text-center text-muted-foreground">
-          <p>&copy; 2023 InteriorElegance. All rights reserved.</p>
+          <p>&copy; 2024 InteriorElegance. All rights reserved.</p>
         </div>
       </footer>
     </div>
