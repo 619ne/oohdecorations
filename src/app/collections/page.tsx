@@ -96,7 +96,7 @@ export default function ProductPage() {
           {filteredProducts.map((product) => (
             <Card key={product.id}>
               <CardHeader>
-                <img src={product.image} alt={product.name} className="w-full h-48 object-cover rounded-t-lg" />
+                <Image src={product.image} alt={product.name} className="w-full h-48 object-cover rounded-t-lg" />
               </CardHeader>
               <CardContent>
                 <CardTitle>{product.name}</CardTitle>

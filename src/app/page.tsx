@@ -78,7 +78,7 @@ export default function Home() {
           <div className="relative z-10 container mx-auto px-4">
             <div className="flex flex-col justify-center backdrop-blur-md bg-white/30 p-8 rounded-2xl w-full lg:w-2/5">
               <h1 className="text-2xl md:text-4xl lg:text-5xl font-light leading-tight text-white">
-                Discover the Perfect Pieces to Elevate Your Home
+                Discover the Perfect Piece to Elevate Your Home
               </h1>
               <p className="mt-4 text-lg text-white/90">
                 Furniture, Art, Lighting, and More
