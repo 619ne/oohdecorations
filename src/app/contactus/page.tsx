@@ -50,7 +50,7 @@ export default function ContactPage() {
               className="min-w-[200px] relative overflow-hidden group" 
               asChild
             >
-              <Link href="https://instagram.com" target="_blank">
+              <Link href="https://www.instagram.com/ooh_home_interiors/profilecard/?igsh=OHF6OWppeXRnbW5k" target="_blank">
                 <span className="absolute inset-0 bg-[#E4405F] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></span>
                 <span className="relative flex items-center justify-center gap-2 group-hover:text-white">
                   <Instagram />
@@ -93,7 +93,7 @@ export default function ContactPage() {
       <footer className="fixed bottom-0 left-0 right-0 backdrop-blur-md bg-white/20 py-6 px-4 md:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center text-white">
           <p>&copy; 2024 Ooh Interiors. All rights reserved.</p>
-          <p>ogba Ikeja, Ikeja Lagos</p>
+          <p> ogba Ikeja, Ikeja Lagos</p>
         </div>
       </footer>
     </div>
