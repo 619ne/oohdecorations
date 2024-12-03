@@ -11,15 +11,15 @@ import Image from "next/image"
 
 // Mock product data
 const products = [
-  { id: 1, name: "Cented candles", category: "Art & Aesthetics", price: 999.99, image: "/art3.jpg"},
-  { id: 2, name: "Wall clock", category: "Art & Aesthetics", price: 129.99, image: "/art4.jpg" },
-  { id: 3, name: "Abstract Wall Art", category: "Wall Decor", price: 199.99, image: "/wall1.jpg" },
-  { id: 4, name: "Ceramic Vase", category: "Accessories", price: 49.99, image: "/vase2.jpg" },
-  { id: 5, name: "Dining Table", category: "Furniture", price: 799.99, image: "/furniture2.jpg" },
-  { id: 6, name: "Table Lamp", category: "Lighting", price: 79.99, image: "/lamp1.jpg" },
-  { id: 7, name: "Wallpaper Roll", category: "Wall Decor", price: 89.99, image: "/wall2.jpg" },
-  { id: 8, name: "Channel Decor book", category: "Accessories", price: 39.99, image: "/ass1.jpg" },
-  { id: 9, name: "Hour glass", category: "Art & Aesthetics", price: 39.99, image: "/art2.jpg" },
+  { id: 1, name: "Scented candles", category: "Art & Aesthetics", price: 999.99, image: "/art3.jpg", width: 500, height: 300},
+  { id: 2, name: "Wall clock", category: "Art & Aesthetics", price: 129.99, image: "/art4.jpg", width: 500, height: 300 },
+  { id: 3, name: "Abstract Wall Art", category: "Wall Decor", price: 199.99, image: "/wall1.jpg", width: 500, height: 300 },
+  { id: 4, name: "Ceramic Vase", category: "Accessories", price: 49.99, image: "/vase2.jpg", width: 500, height: 300 },
+  { id: 5, name: "Dining Table", category: "Furniture", price: 799.99, image: "/furniture2.jpg", width: 500, height: 300 },
+  { id: 6, name: "Table Lamp", category: "Lighting", price: 79.99, image: "/lamp1.jpg", width: 500, height: 300 },
+  { id: 7, name: "Wallpaper Roll", category: "Wall Decor", price: 89.99, image: "/wall2.jpg", width: 500, height: 300 },
+  { id: 8, name: "Channel Decor book", category: "Accessories", price: 39.99, image: "/ass1.jpg", width: 500, height: 300 },
+  { id: 9, name: "Hour glass", category: "Art & Aesthetics", price: 39.99, image: "/art2.jpg", width: 500, height: 300 },
   // Add more products as needed
 ]
 
@@ -96,7 +96,14 @@ export default function ProductPage() {
           {filteredProducts.map((product) => (
             <Card key={product.id}>
               <CardHeader>
-                <Image src={product.image} alt={product.name} className="w-full h-48 object-cover rounded-t-lg" />
+                <div className="relative w-full h-48">
+                  <Image 
+                    src={product.image} 
+                    alt={product.name} 
+                    className="object-cover rounded-t-lg"
+                    fill
+                  />
+                </div>
               </CardHeader>
               <CardContent>
                 <CardTitle>{product.name}</CardTitle>

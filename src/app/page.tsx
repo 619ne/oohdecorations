@@ -55,7 +55,7 @@ export default function Home() {
                 <Link href="#" className="text-sm text-white hover:opacity-70">
                   Company
                 </Link>
-                <Link href="#" className="text-sm text-white hover:opacity-70">
+                <Link href="/contactus" className="text-sm text-white hover:opacity-70">
                   Contact Us
                 </Link>
               </nav>

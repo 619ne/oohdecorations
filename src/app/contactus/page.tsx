@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import { Facebook, Instagram, Twitter,  MessageCircleHeart } from "lucide-react"
+import { Facebook, Instagram, Twitter, MessageCircleHeart, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
@@ -93,7 +93,7 @@ export default function ContactPage() {
       <footer className="fixed bottom-0 left-0 right-0 backdrop-blur-md bg-white/20 py-6 px-4 md:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center text-white">
           <p>&copy; 2024 Ooh Interiors. All rights reserved.</p>
-          <p> ogba Ikeja, Ikeja Lagos</p>
+          <p className="flex items-center justify-center gap-2"><MapPin className="h-4 w-4" /> ogba Ikeja, Ikeja Lagos</p>
         </div>
       </footer>
     </div>
